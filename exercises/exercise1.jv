@@ -35,6 +35,6 @@ block SheetToTable oftype TableInterpreter {
 }
 
 block Airportsloader oftype SQLiteLoader {
-    table: "airport";
-    file: "C:/Users/kirol/Desktop/Made_Project_Kirollos/exercises/airports";}
+    table: "airports";
+    file: "./airports.sqlite"}
 }
